@@ -2,10 +2,14 @@
 * @Author: Aufal Marom
 * @Date:   2018-05-01 11:43:00
 * @Last Modified by:   aufalmarom
-* @Last Modified time: 2018-05-01 11:55:26
+* @Last Modified time: 2018-05-01 13:33:37
 
 * Theme : Dynamic Learning;
 * URI : https://github.com/aufalmarom/wp_DynamicLearning.git;
 * Description : Theme for wordpress Dynamic Learning;
 
 */
+
+h1 a{
+	color: blue;
+}
