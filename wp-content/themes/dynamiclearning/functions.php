@@ -4,7 +4,7 @@
  * @Author: aufalmarom
  * @Date:   2018-05-01 13:30:14
  * @Last Modified by:   aufalmarom
- * @Last Modified time: 2018-05-02 21:21:49
+ * @Last Modified time: 2018-05-03 23:57:51
  */
 
 //load script css/js
@@ -21,4 +21,17 @@ register_nav_menus(array(
 	'footer_menu' => 'Menu Footer'
 ));
 
+// fungsi the excerpt atau pembatasan teks
+function get_excerpt_length(){
+	return 5;
+}
+
+//fungsi menukar bacaan
+function return_excerpt_text(){
+	return '...';
+}
+
+//fungsi excerpt wp
+add_filter('excerpt_more', 'return_excerpt_text');
+add_filter('excerpt_length', 'get_excerpt_length');
 ?>

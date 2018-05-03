@@ -1,3 +1,4 @@
+<!-- file ini dipanggil untuk konten aja bro -->
 <!-- function of header on wp -->
 <?php get_header(); ?>
 
@@ -8,7 +9,7 @@
 	 * @Author: Aufal Marom
 	 * @Date:   2018-05-01 11:42:50
 	 * @Last Modified by:   aufalmarom
-	 * @Last Modified time: 2018-05-03 23:56:03
+	 * @Last Modified time: 2018-05-03 23:57:28
 	 */
 	?>
 
@@ -20,11 +21,8 @@
 ?>
 			<!-- permalink for link to main page -->
 		<h3><a href=" <?php the_permalink(); ?> "> <?php the_title(); ?> </a></h3>    
-			<!-- excerpt : mengambil otomatis beberapa kata, buat see more berupa [...] -->
-			<!-- permalink buat ke link postnya --> 
-		<p> <?php echo get_the_excerpt(); ?>  <a href=" <?php the_permalink(); ?>">baca terus ... :) </a></p> 			
-			
-			
+			<!-- seluruh konten -->
+		<p> <?php	the_content(); ?></p> 
 
 	<?php
 		endwhile;
