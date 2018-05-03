@@ -4,7 +4,7 @@
  * @Author: aufalmarom
  * @Date:   2018-05-01 13:30:14
  * @Last Modified by:   aufalmarom
- * @Last Modified time: 2018-05-03 23:57:51
+ * @Last Modified time: 2018-05-04 00:03:00
  */
 
 //load script css/js
@@ -28,7 +28,7 @@ function get_excerpt_length(){
 
 //fungsi menukar bacaan
 function return_excerpt_text(){
-	return '...';
+	return '';
 }
 
 //fungsi excerpt wp
