@@ -4,7 +4,7 @@
  * @Author: aufalmarom
  * @Date:   2018-05-01 12:57:29
  * @Last Modified by:   aufalmarom
- * @Last Modified time: 2018-05-02 21:19:12
+ * @Last Modified time: 2018-06-02 01:38:19
  */
 ?>
 
@@ -32,4 +32,10 @@
 			wp_nav_menu($args); 
 		?>
 		</nav>
+
+		<div id="search_submit">
+			<?php get_search_form(); ?>
+		</div>
+
+		<div class="clear"></div>
 	</header>

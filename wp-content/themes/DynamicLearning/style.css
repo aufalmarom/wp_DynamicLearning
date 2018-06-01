@@ -2,7 +2,7 @@
 * @Author: Aufal Marom
 * @Date:   2018-05-01 11:43:00
 * @Last Modified by:   aufalmarom
-* @Last Modified time: 2018-05-03 16:56:29
+* @Last Modified time: 2018-06-02 01:59:16
 
 * Theme : Dynamic Learning;
 * URI : https://github.com/aufalmarom/wp_DynamicLearning.git;
@@ -53,6 +53,30 @@ header nav li{
 	color: #333;
 }
 
+.sub_judul{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+header nav{
+	float:left;
+}
+
+#search_submit{
+	float: right;
+	margin-top: 20px;
+	width: 70%;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.clear{
+	clear:both;
+}
+
 header{
 	border-bottom: 3px solid #333;
 }
@@ -60,4 +84,3 @@ header{
 footer{
 	border-top: 3px solid #333;
 }
-//durung bar iki header footer le
