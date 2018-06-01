@@ -8,7 +8,7 @@
 	 * @Author: Aufal Marom
 	 * @Date:   2018-05-01 11:42:50
 	 * @Last Modified by:   aufalmarom
-	 * @Last Modified time: 2018-06-02 01:45:17
+	 * @Last Modified time: 2018-06-02 03:35:33
 	 */
 	?>
 
@@ -18,8 +18,7 @@
 		while ( have_posts()): 
 			the_post ();  
 
-		get_template_part('content');
-
+		get_template_part('content', get_post_format());
 
 		endwhile;
 	else:

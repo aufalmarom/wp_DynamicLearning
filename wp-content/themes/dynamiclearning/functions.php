@@ -4,7 +4,7 @@
  * @Author: aufalmarom
  * @Date:   2018-05-01 13:30:14
  * @Last Modified by:   aufalmarom
- * @Last Modified time: 2018-06-02 02:01:27
+ * @Last Modified time: 2018-06-02 03:33:00
  */
 
 //load script css/js
@@ -43,6 +43,8 @@ function init_setup(){
 	add_theme_support('post-thumbnails');
 	add_image_size('small_thumb', 150, 150, true);
 	add_image_size('big_thumb', 450, 250, true);
+
+	add_theme_support('post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio', 'chat'));
 }
 
 add_action('after_setup_theme', 'init_setup');
