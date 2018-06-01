@@ -4,16 +4,21 @@
  * @Author: aufalmarom
  * @Date:   2018-06-02 01:45:44
  * @Last Modified by:   aufalmarom
- * @Last Modified time: 2018-06-02 02:01:40
+ * @Last Modified time: 2018-06-02 02:57:39
  */
 	
-if(is_single()):
-?>
-<h3><?php the_title(); ?> </a></h3>   
-<p>
-	<?php the_content(); ?>
-	<?php the_post_thumbnail('big_thumb'); ?>
-</p>
+if(is_single()): ?>
+
+<h3><?php the_title(); ?> </h3>   
+<p><?php the_content(); ?></p>
+<?php the_post_thumbnail('big_thumb'); ?>
+
+<?php elseif( is_page() ): ?>
+
+<h3> Halaman <?php the_title(); ?></h3>   
+<p> <?php the_content(); ?></p>
+
+
 
 <?php else: ?>
 	<!-- permalink for link to main page -->

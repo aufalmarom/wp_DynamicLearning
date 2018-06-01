@@ -4,7 +4,7 @@
  * @Author: aufalmarom
  * @Date:   2018-05-01 12:57:29
  * @Last Modified by:   aufalmarom
- * @Last Modified time: 2018-06-02 01:38:19
+ * @Last Modified time: 2018-06-02 03:27:18
  */
 ?>
 
@@ -17,7 +17,6 @@
 	<title><?php bloginfo('name');?> </title>
 	<!-- informasi header, load script css, js atau plugin -->
 	<?php wp_head(); ?>
-	<link rel="stylesheet" href="">
 </head>
 <body>
 	<header>
