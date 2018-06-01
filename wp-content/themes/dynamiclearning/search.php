@@ -8,10 +8,20 @@
 	 * @Author: Aufal Marom
 	 * @Date:   2018-05-01 11:42:50
 	 * @Last Modified by:   aufalmarom
-	 * @Last Modified time: 2018-06-02 01:46:34
+	 * @Last Modified time: 2018-06-02 04:12:39
 	 */
 	?>
+<style>
+	.sub_judul{
+		font-weight: bold;
+		font-size: 20px;
+	}
 
+	header nav{
+		float:left;
+	}
+
+</style>
 <?php
 	// check post wordpress 
 	if ( have_posts()): ?>

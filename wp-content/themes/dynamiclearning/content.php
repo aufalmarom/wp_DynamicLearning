@@ -4,10 +4,10 @@
  * @Author: aufalmarom
  * @Date:   2018-06-02 01:45:44
  * @Last Modified by:   aufalmarom
- * @Last Modified time: 2018-06-02 02:57:39
+ * @Last Modified time: 2018-06-02 04:12:46
  */
 	
-if(is_single()): ?>
+if(is_single()):  ?>
 
 <h3><?php the_title(); ?> </h3>   
 <p><?php the_content(); ?></p>

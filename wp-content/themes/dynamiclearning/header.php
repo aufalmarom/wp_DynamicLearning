@@ -4,7 +4,7 @@
  * @Author: aufalmarom
  * @Date:   2018-05-01 12:57:29
  * @Last Modified by:   aufalmarom
- * @Last Modified time: 2018-06-02 03:27:18
+ * @Last Modified time: 2018-06-02 04:09:47
  */
 ?>
 
@@ -17,6 +17,24 @@
 	<title><?php bloginfo('name');?> </title>
 	<!-- informasi header, load script css, js atau plugin -->
 	<?php wp_head(); ?>
+	<style>
+
+		header nav{
+			float:left;
+			width: 70%;
+		}
+
+		#search_submit{
+			float: right;
+			margin-top: 20px;
+			
+		}
+
+		.clear{
+			clear:both;
+		}		
+
+	</style>
 </head>
 <body>
 	<header>
