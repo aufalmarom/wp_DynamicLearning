@@ -8,7 +8,7 @@
 	 * @Author: Aufal Marom
 	 * @Date:   2018-05-01 11:42:50
 	 * @Last Modified by:   aufalmarom
-	 * @Last Modified time: 2018-06-02 03:35:33
+	 * @Last Modified time: 2018-06-02 03:48:54
 	 */
 	?>
 
@@ -28,6 +28,11 @@
 
 </main>
 
+<aside>
+	<?php dynamic_sidebar('sidebar1'); ?>
+</aside>
+
+<div class="clear"></div>
 <!-- //function of footer on wp -->
 <?php get_footer(); ?>
 

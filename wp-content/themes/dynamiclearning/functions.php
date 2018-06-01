@@ -4,7 +4,7 @@
  * @Author: aufalmarom
  * @Date:   2018-05-01 13:30:14
  * @Last Modified by:   aufalmarom
- * @Last Modified time: 2018-06-02 03:33:00
+ * @Last Modified time: 2018-06-02 03:44:07
  */
 
 //load script css/js
@@ -48,5 +48,20 @@ function init_setup(){
 }
 
 add_action('after_setup_theme', 'init_setup');
+
+function widget_setup(){
+	register_sidebar(array(
+		'name' => "Sidebar pertama",
+		'id' => "sidebar1"
+	));
+
+	register_sidebar(array(
+		'name' => "Sidebar kedua",
+		'id' => "sidebar2"
+	));	
+}
+
+add_action('widgets_init', 'widget_setup');
+
 
 ?>
